@@ -1175,7 +1175,7 @@ repository:
   literal-jsx:
     contentName: meta.jsx.js
     begin: (?<=\(|\{|\[|,|&&|\|\||\?|:|=|=>|\Wreturn|^return|\Wdefault|^)(?=\s*<[_$a-zA-Z])
-    end: (((?<=>)|(?<=/>))
+    end: (((?<=>)|(?<=/>)))
     patterns:
     - include: '#jsx-tag-start'
 

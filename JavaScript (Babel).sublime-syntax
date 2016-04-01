@@ -1160,7 +1160,7 @@ contexts:
     - match: (?<=\(|\{|\[|,|&&|\|\||\?|:|=|=>|\Wreturn|^return|\Wdefault|^)(?=\s*<[_$a-zA-Z])
       push:
         - meta_content_scope: meta.jsx.js
-        - match: (((?<=>)|(?<=/>))
+        - match: (((?<=>)|(?<=/>)))
           pop: true
         - include: jsx-tag-start
 
